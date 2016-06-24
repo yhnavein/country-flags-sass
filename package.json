@@ -7,12 +7,16 @@
     "type": "git",
     "url": "git@github.com:yhnavein/country-flags-sass.git"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "node-sass --include-path scss flags.scss flags.css"
+  },
   "author": {
     "name": "Piotr Dabrowski @ PureDev"
   },
   "contributors": [],
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  },
   "dependencies": {}
 }

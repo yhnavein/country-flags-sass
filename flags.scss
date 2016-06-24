@@ -1,7 +1,9 @@
+$flags-file:        './flags.png' !default;
+
 .flag {
   width: 32px;
   height: 32px;
-  background: url('../assets/flags.png') no-repeat;
+  background: url($flags-file) no-repeat;
   display: inline-block;
   margin-top: -10px;
   vertical-align: middle;

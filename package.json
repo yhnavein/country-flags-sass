@@ -1,6 +1,6 @@
 {
   "name": "country-flags-sass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Full list of country flags ready to use in your web applications",
   "main": "flags.scss",
   "repository": {
